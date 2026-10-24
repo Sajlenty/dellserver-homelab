@@ -1,0 +1,33 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+secrets.yaml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+*.log.*
+
+# Application data and backups
+data/
+backups/
+config-backup/
+
+# Temporary and editor files
+*.tmp
+*.swp
+*~
+.DS_Store
